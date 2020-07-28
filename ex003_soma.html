@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Olá, Mundo </h1>
+    <script>
+        var n1 = Number.parseFloat(window.prompt("Qual primeiro número: ")) // prompt retonar sempre uma string. Numer.parseFloat converte para float
+        var n2 = Number(window.prompt("Qual segundo número: ")) // Só o Number. o JS decide se vai ser Int ou Float
+        var soma = n1 + n2
+        window.alert('A soma é ' + soma ) // + serve para concatenar a frase
+        window.alert(`A soma entre ${n1} e ${n2} é ${soma}`)
+    </script>
+</body>
+</html>
